@@ -1,5 +1,5 @@
 {
-	"name": "webpack-project",
+	"name": "crm-dashboard-customers",
 	"version": "1.0.0",
 	"description": "Проект з Webpack, Pug, SCSS та JavaScript",
 	"homepage": "https://kraiviks.github.io/crm-dashboard-customers",
