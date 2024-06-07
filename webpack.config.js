@@ -5,14 +5,13 @@ const PugPlugin = require('pug-plugin');
 module.exports = {
 	output: {
 		path: path.join(__dirname, 'dist/'),
-		publicPath: '/',
+		publicPath: './',
 	},
 	plugins: [
 		new PugPlugin({
 			pretty: 'auto',
 			entry: {
 				index: './src/index.pug',
-				// about: './src/pug/about.pug',
 			},
 			js: {
 				filename: 'js/[name].[contenthash:8].js',
